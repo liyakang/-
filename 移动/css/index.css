@@ -1,0 +1,650 @@
+html, body, .main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.slide1 {
+    position: relative;
+    background: url("../image/qqqq.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+}
+
+.slide1 .img {
+    width: 5.0rem;
+    height: 5.4rem;
+    margin: 1.5rem auto 0;
+    background: url("../image/o_1an20oauj1ic8hnn15s3e4nqubd.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+.slide1 p {
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    line-height: 0.8rem;
+    color: white;
+    opacity: 0;
+
+}
+
+.slide1 p:nth-child(1) {
+    top: 0.2rem;
+    left: 0.2rem;
+}
+
+.slide1 p:nth-child(2) {
+    top: 0.2rem;
+    right: 0.2rem;
+}
+
+.slide1 p:nth-child(3) {
+    bottom: 0.2rem;
+    left: 0.2rem;
+}
+
+.slide1 p:nth-child(4) {
+    bottom: 0.2rem;
+    right: 0.2rem;
+}
+
+.slide1 .css5 {
+    position: absolute;
+    top: 1.7rem;
+    left: 1.4rem;
+    -webkit-animation: move 3s infinite linear both;
+    animation: move 3s infinite linear both;
+}
+
+.slide1 span {
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 15px;
+}
+
+.slide1 .shakes {
+    width: 2rem;
+    height: 1rem;
+    margin: 0 2.3rem;
+    background: url("../image/3.png") no-repeat;
+}
+
+.slide1 .com {
+    width: 2rem;
+    height: 1rem;
+    margin: 0 2.3rem;
+    background: url("../image/o_1an20pekj136ha9iubt1936jfh12.png") no-repeat;
+
+}
+
+#page1 .shakes {
+    -webkit-animation: fadeIn 0.8s infinite linear both;
+    animation: fadeIn 0.8s infinite linear both;
+}
+
+#page1 .img {
+    -webkit-animation: zoomIn 0.3s 1 0.3s both;
+    animation: zoomIn 0.3s 1 0.3s both;
+}
+
+#page1 .img p {
+    opacity: 1;
+}
+
+#page1 .img p:nth-child(1) {
+    -webkit-animation: zoomIn 1s 1 0.6s both;
+    animation: zoomIn 1s 1 0.6s both;
+}
+
+#page1 .img p:nth-child(2) {
+    -webkit-animation: zoomIn 1s 1 0.9s both;
+    animation: zoomIn 1s 1 0.9s both;
+}
+
+#page1 .img p:nth-child(3) {
+    -webkit-animation: zoomIn 1s 1 1.2s both;
+    animation: zoomIn 1s 1 1.2s both;
+}
+
+#page1 .img p:nth-child(4) {
+    -webkit-animation: zoomIn 1s 1 1.5s both;
+    animation: zoomIn 1s 1 1.5s both;
+}
+
+.slide2 {
+    background: url("../image/qqqq.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.slide2 .ss img {
+    width: 1.74rem;
+    height: 0.24rem;
+
+}
+
+#page2 .ss img:nth-child(1) {
+    -webkit-animation: zoomIn 0.9s 4 1s both;
+    animation: zoomIn 0.9s 4 1s both;
+}
+
+#page2 .ss img:nth-child(2) {
+    -webkit-animation: zoomIn 0.3s infinite linear both;
+    animation: zoomIn 0.3s infinite linear both;
+}
+
+#page2 .ss img:nth-child(3) {
+    -webkit-animation: zoomIn 0.6s 4 linear both;
+    animation: zoomIn 0.6s 4 linear both;
+}
+
+#page2 .ss img:nth-child(4) {
+    -webkit-animation: zoomIn 1.2s 4 linear both;
+    animation: zoomIn 1.2s 4 linear both;
+}
+
+#page2 .cc img:nth-child(1) {
+    -webkit-animation: zoomIn 0.3s 6 linear both;
+    animation: zoomIn 0.3s 6 linear both;
+}
+
+#page2 .cc img:nth-child(2) {
+    -webkit-animation: zoomIn 0.6s 3 linear both;
+    animation: zoomIn 0.6s 3 linear both;
+}
+
+#page2 .cc img:nth-child(3) {
+    -webkit-animation: zoomIn 0.9s 5 linear both;
+    animation: zoomIn 0.9s 5 linear both;
+}
+
+#page2 .cc img:nth-child(4) {
+    -webkit-animation: zoomIn 1.2s 3 linear both;
+    animation: zoomIn 1.2s 3 linear both;
+}
+
+.slide2 .frame {
+    width: 5.52rem;
+    height: 0;
+    background: url("../image/bb.png") no-repeat;
+    margin: 0.5rem auto;
+    position: relative;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.slide2 .frame .drawing {
+    width: 4rem;
+    height: 4rem;
+    background: url("../image/666.png") no-repeat;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    opacity: 0;
+}
+
+.slide2 .frame img {
+    position: absolute;
+    opacity: 0;
+}
+
+.slide2 .frame img:nth-child(1) {
+    top: 0.4rem;
+    left: 0.2rem;
+}
+
+.slide2 .frame img:nth-child(2) {
+    top: 0.8rem;
+    left: 0.2rem;
+}
+
+.slide2 .frame img:nth-child(3) {
+    bottom: 4.5rem;
+    right: 0.2rem;
+}
+
+.slide2 .frame img:nth-child(4) {
+    bottom: 4rem;
+    right: 0.2rem;
+}
+
+#page2 .frame img:nth-child(1) {
+    -webkit-animation: zoomIn 0.6s infinite linear both;
+    animation: zoomIn 0.6s infinite linear both;
+}
+
+#page2 .frame {
+    height: 9.36rem;
+    background: url("../image/bb.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    transition: all 1s;
+}
+
+#page2 .frame img {
+    opacity: 1;
+}
+
+#page2 .frame .drawing {
+    transition: all 1s;
+    opacity: 1;
+}
+
+.slide2 .frame .info {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 5.5rem;
+    left: 0.5rem;
+    opacity: 0;
+}
+
+#page2 .frame .info {
+    opacity: 1;
+}
+
+#page2 .frame .info p:nth-child(1) {
+    -webkit-animation: zoomIn 0.3s 1 linear both;
+    animation: zoomIn 0.3s 1 linear both;
+}
+
+#page2 .frame .info p:nth-child(2) {
+    -webkit-animation: zoomIn 0.6s 1 linear both;
+    animation: zoomIn 0.6s 1 linear both;
+}
+
+#page2 .frame .info p:nth-child(3) {
+    -webkit-animation: zoomIn 0.8s 1 linear both;
+    animation: zoomIn 0.8s 1 linear both;
+}
+
+#page2 .frame .info p:nth-child(4) {
+    -webkit-animation: zoomIn 1s 1 linear both;
+    animation: zoomIn 1s 1 linear both;
+}
+
+#page2 .frame .info p:nth-child(5) {
+    -webkit-animation: zoomIn 1.2s 1 linear both;
+    animation: zoomIn 1.2s 1 linear both;
+}
+
+#page1 {
+    -webkit-animation: zoomOut 1s 1;
+    animation: zoomOut 1s 1;
+}
+
+@keyframes zoomOut {
+    0% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+#page2 {
+    -webkit-animation: zoomOut 1s 1;
+    animation: zoomOut 1s 1;
+}
+
+.music {
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../audio/music.svg") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0.2rem;
+    top: 1.2em;;
+    z-index: 111;
+    opacity: 0;
+
+}
+
+.musiccur {
+    -webkit-animation: move 1s infinite linear both;
+    animation: move 1s infinite linear both;
+}
+
+@keyframes move {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.slide3 {
+    background: url("../image/qqqq.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#page3 {
+    -webkit-animation: zoomOut 1s 1;
+    animation: zoomOut 1s 1;
+
+}
+
+.slide3 h3 {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: 20px;
+    color: white;
+    opacity: 0;
+}
+
+#page3 h3 {
+    -webkit-animation: bounceInLeft 2s 1 both;
+    animation: bounceInLeft 2s 1 both;
+}
+
+#page3 h3 {
+    opacity: 1;
+}
+
+.slide3 .hongDian {
+    width: 1.7rem;
+    height: 0.3rem;
+    background: url("../image/3.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+}
+
+#page3 .hongDian {
+    -webkit-animation: fadeIn 0.5s infinite linear both;
+    animation: fadeIn 0.5s infinite linear both;
+}
+
+.slide3 span {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 800;
+    color: firebrick;
+}
+
+.slide3 a {
+    position: absolute;
+    display: block;
+    width: 2rem;
+    height: 0.3rem;
+    background: url("../image/dd.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.slide3 :nth-child(3) {
+    top: 3rem;
+    left: 3rem;
+}
+
+.slide3 :nth-child(4) {
+    top: 3.6rem;
+    left: 2.2rem;
+}
+
+.slide3 :nth-child(5) {
+    top: 4.6rem;
+    left: 3rem;
+}
+
+.slide3 :nth-child(6) {
+    top: 5.2rem;
+    left: 2.2rem;
+}
+
+.slide3 :nth-child(7) {
+    top: 6.2rem;
+    left: 2.8rem;
+}
+
+.slide3 :nth-child(8) {
+    top: 6.8rem;
+    left: 2.2rem;
+}
+
+.slide3 :nth-child(9) {
+    top: 7.8rem;
+    left: 2.7rem;
+}
+
+.slide3 :nth-child(10) {
+    top: 8.4rem;
+    left: 2.2rem;
+}
+
+#page3 :nth-child(3) {
+    -webkit-animation: zoomIn 0.3s 1 linear both;
+    animation: zoomIn 0.3s 1 linear both;
+}
+
+#page3 :nth-child(4) {
+    -webkit-animation: zoomIn 0.3s 1 linear both;
+    animation: zoomIn 0.3s 1 linear both;
+}
+
+#page3 :nth-child(5) {
+    -webkit-animation: zoomIn 0.6s 1 linear both;
+    animation: zoomIn 0.6s 1 linear both;
+}
+
+#page3 :nth-child(6) {
+    -webkit-animation: zoomIn 0.6s 1 linear both;
+    animation: zoomIn 0.6s 1 linear both;
+}
+
+#page3 :nth-child(7) {
+    -webkit-animation: zoomIn 0.9s 1 linear both;
+    animation: zoomIn 0.9s 1 linear both;
+}
+
+#page3 :nth-child(8) {
+    -webkit-animation: zoomIn 0.9s 1 linear both;
+    animation: zoomIn 0.9s 1 linear both;
+}
+
+#page3 :nth-child(9) {
+    -webkit-animation: zoomIn 1.2s 1 linear both;
+    animation: zoomIn 1.2s 1 linear both;
+}
+
+#page3 :nth-child(10) {
+    -webkit-animation: zoomIn 1.2s 1 linear both;
+    animation: zoomIn 1.2s 1 linear both;
+}
+
+.slide4 {
+    background: url("../image/qqqq.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.slide4 .shan{
+    background: url("../image/vvv.png")no-repeat;
+    width: 0.4rem;
+    height: 3rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+}
+#page4 .shan{
+    -webkit-animation: fadeIn 0.5s infinite linear both;
+    animation: fadeIn 0.5s infinite linear both;
+}
+#page4 span{
+    width: 0.4rem;
+    float: left;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 2.7rem;
+    left: 0.3rem;
+    -webkit-animation: bounceInDown 1s 1 both;
+    animation: bounceInDown 1s 1  both;
+
+}
+#page4 i{
+    display: block;
+    width: 2rem;
+    height:2rem;
+    border-radius:50% ;
+    background: crimson;
+    line-height:2rem;
+    text-align: center;
+    color:wheat;
+    font-size: 30px;
+    position: relative;
+    left: 4rem;
+    top: 1rem;
+    -webkit-animation: move 6s infinite linear both;
+    animation: move 6s infinite linear both;
+}
+#page4 p{
+    display: block;
+    width: 2rem;
+    height:2rem;
+    border-radius:50% ;
+    background: rebeccapurple;
+    line-height:2rem;
+    text-align: center;
+    color:palevioletred;
+    font-size: 25px;
+    position: absolute;
+    left: 2.3rem;
+    top: 2rem;
+    -webkit-animation: move 5s infinite linear both;
+    animation: move 5s infinite linear both;
+}
+#page4 em{
+    display: block;
+    width: 2rem;
+    height:2rem;
+    border-radius:50% ;
+    background: darkorange;
+    line-height:2rem;
+    text-align: center;
+    color:#07ba38;
+    font-size: 25px;
+    position: absolute;
+    left: 3.3rem;
+    top: 3.2rem;
+    -webkit-animation: move 2s infinite linear both;
+    animation: move 2s infinite linear both;
+}
+#page4 b{
+    display: block;
+    width: 2rem;
+    height:2rem;
+    border-radius:50% ;
+    background: violet;
+    line-height:2rem;
+    text-align: center;
+    color:chartreuse;
+    font-size: 25px;
+    position: absolute;
+    left: 3rem;
+    top: 5rem;
+    -webkit-animation: move 3s infinite linear both;
+    animation: move 3s infinite linear both;
+}
+#page4 a{
+    display: block;
+    width: 2rem;
+    height:2rem;
+    border-radius:50% ;
+    background: fuchsia;
+    line-height:2rem;
+    text-align: center;
+    color:lightcyan;
+    font-size: 25px;
+    position: absolute;
+    left: 2rem;
+    top: 6.4rem;
+    -webkit-animation: move 9s infinite linear both;
+    animation: move 9s infinite linear both;
+
+}
+.slide4 img{
+    width:3rem;
+    height: 3rem;
+    border-radius:50% ;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.slide5 {
+    background: url("../image/qqqq.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.slide5>a{
+    display: block;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+.slide5>p{
+    display: block;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+.slide5 .wm{
+    width: 4rem;
+    height: 4rem;
+    background: url("../image/wwwwww.png")no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 4rem;
+    left: 1.2rem;
+}
+#page5>a{
+    -webkit-animation: bounceInLeft 1s 1 both;
+    animation: bounceInDown 1s 1  both;
+}
+#page5 p{
+    -webkit-animation: bounceInRight 1s 1 both;
+    animation: bounceInRight 1s 1  both;
+}

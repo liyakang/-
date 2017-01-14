@@ -1,0 +1,1681 @@
+html {
+    font-size: 100px;
+}
+
+html, body, .main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+@-webkit-keyframes zoomOut {
+    0% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomOut {
+    0% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.musics {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../images/12.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 110;
+    opacity: 0;
+}
+
+.music {
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../audio/music.svg") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0.2rem;
+    top: 1.2em;;
+    z-index: 111;
+    opacity: 0;
+
+}
+
+.musiccur {
+    -webkit-animation: move 1s infinite linear both;
+    animation: move 1s infinite linear both;
+}
+
+@-webkit-keyframes move {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes move {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.slide1 {
+    background: url("../images/13.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.slide1 .Package {
+    width: 100%;
+    height: 4.09rem;
+    background: url("../images/14.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    opacity: 0;
+}
+
+.slide1 h2 {
+    width: 6rem;
+    height: 2rem;
+    position: absolute;
+    left: 0.5rem;
+    top: .7rem;
+}
+
+.slide1 h2 .drawing1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.slide1 h2 span {
+    position: absolute;
+    top: .4rem;
+    left: 1rem;
+    font-size: .7rem;
+    color: white;
+    font-weight: 500;
+}
+
+.drawing2 {
+    width: 3.2rem;
+    height: 1.76rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 2.5rem;
+
+}
+
+.drawing3 {
+    width: 3.1rem;
+    height: 3.32rem;
+    background: url("../images/3.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 30%;
+    top: 3.5rem;
+    border-radius: 50%;
+    z-index: 111;
+    opacity: 0;
+}
+
+.drawing3 .icon {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.drawing3 .icon1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+    z-index: 10;
+
+}
+
+.drawing3 .icon2 {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.drawing4 {
+    width: 3.2rem;
+    height: 4.22rem;
+    left: 0;
+    top: 5rem;
+}
+
+.drawing5 {
+    width: 1.46rem;
+    height: 2.86rem;
+    right: .5rem;
+    top: 5rem;
+}
+
+.drawing6 {
+    width: 3.2rem;
+    height: 1.22rem;
+    right: .7rem;
+    top: 7.4rem;
+}
+
+.drawing7 {
+    width: 4.4rem;
+    height: 4.4rem;
+    left: 0;
+    bottom: 0;
+}
+
+.drawing8 {
+    width: 3.2rem;
+    height: 3.32rem;
+    right: 1rem;
+    bottom: 0;
+}
+
+.drawing9 {
+    width: .6rem;
+    height: 1.12rem;
+
+    right: .4rem;
+    bottom: 1rem;
+}
+
+.drawing {
+    position: absolute;
+    opacity: 0;
+}
+
+#page1 .drawing {
+    opacity: 1;
+}
+
+#page1 .drawing7 {
+    -webkit-animation: fadeIn 1s 1 both;
+    animation: fadeIn 1s 1 both;
+}
+
+#page1 .drawing4 {
+    -webkit-animation: fadeIn 1s 1 .6s both;
+    animation: fadeIn 1s 1 .6s both;
+}
+
+#page1 .drawing8 {
+    -webkit-animation: fadeIn 1s 1 .8s both;
+    animation: fadeIn 1s 1 .8s both;
+}
+
+#page1 .drawing1 {
+    -webkit-animation: fadeInLeft 1s 1 1s both;
+    animation: fadeInLeft 1s 1 1s both;
+}
+
+#page1 .drawing2 {
+    -webkit-animation: fadeInLeft 1.5s 1 1.5s both;
+    animation: fadeInLeft 1.5s 1 1.5s both;
+}
+
+#page1 h2 {
+    -webkit-animation: fadeIn 1s 1 1.2s both;
+    animation: fadeIn 1s 1 1.2s both;
+}
+
+@-webkit-keyframes move1 {
+    0% {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move1 {
+    0% {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+#page1 .drawing3 {
+    transition: all 1.4s 1.4s;
+    opacity: 1;
+    -webkit-animation: move1 1s 1 1.5s both;
+    animation: move1 1s 1 1.5s both;
+}
+
+#page1 .drawing3 .icon1 {
+    -webkit-animation: move 1s 2 1.5s both;
+    animation: move 1s 2 1.5s both;
+}
+
+#page1 .drawing3 .icon2 {
+    -webkit-animation: move 1s 2 1.5s both;
+    animation: move 1s 2 1.5s both;
+}
+
+#page1 .drawing5 {
+    -webkit-animation: bounceInDown 2s 1 1.8s both;
+    animation: bounceInDown 2s 1 1.8s both;
+}
+
+#page1 .drawing6 {
+    -webkit-animation: zoomIn .8s 1 3s both;
+    animation: zoomIn .8s 1 3s both;
+}
+
+@-webkit-keyframes zoomIn {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#page1 .drawing9 {
+    -webkit-animation: bounceIn 1.2s 1 4s both;
+    animation: bounceIn 1.2s 1 4s both;
+}
+
+#page1 .Package {
+    -webkit-transition: all .8s .8s;
+    transition: all .8s .8s;
+    opacity: 1;
+}
+
+.slide2 {
+    background: url("../images/13.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+.slide2 p {
+    position: absolute;
+    width: 1rem;
+    height: .98rem;
+    background: url("../images/15.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    font-size: .5rem;
+    line-height: .98rem;
+    text-align: center;
+    opacity: 0;
+}
+
+.slide2 a {
+    color: white;
+    opacity: 0;
+}
+
+.slide2 p:nth-child(1) {
+    top: .5rem;
+    left: .5rem;
+}
+
+.slide2 p:nth-child(2) {
+    top: 1.5rem;
+    left: .5rem;
+}
+
+.slide2 p:nth-child(3) {
+    top: 2.5rem;
+    left: .5rem;
+}
+
+.slide2 p:nth-child(4) {
+    top: 3.5rem;
+    left: .5rem;
+}
+
+.slide2 .single {
+    opacity: 0;
+    position: absolute;
+    width: 4rem;
+    height: 2rem;
+}
+
+.slide2 .single1 {
+    background: url("../images/16.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    top: .3rem;
+    right: .3rem;
+}
+
+.slide2 .single1 span {
+    margin-left: .3rem;
+}
+
+.slide2 .single2 {
+    background: url("../images/17.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    top: 20%;
+    right: .3rem;
+}
+
+.slide2 .single2 span {
+    margin-left: 2rem;
+}
+
+.slide2 .single3 {
+    background: url("../images/16.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    top: 40%;
+    right: .3rem;
+}
+
+.slide2 .single3 span {
+    margin-left: .3rem;
+}
+
+.slide2 .single4 {
+    background: url("../images/17.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    top: 60%;
+    right: .3rem;
+}
+
+.slide2 .single4 span {
+    margin-left: 1.8rem;
+}
+
+.slide2 .single5 {
+    background: url("../images/16.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    top: 80%;
+    right: .3rem;
+}
+
+.slide2 .single5 span {
+    top: 0;
+    left: 0;
+}
+
+.slide2 .single6 {
+    width: 2.4rem;
+    height: 5.2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.slide2 .single6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide2 .single span {
+    font-size: .3rem;
+    color: white;
+    line-height: 2rem;
+    opacity: 0;
+}
+
+#page2 .single {
+    opacity: 1;
+}
+
+#page2 .single6 {
+    opacity: 1;
+    -webkit-animation: fadeIn 1s 1 both;
+    animation: fadeIn 1s 1 both;
+}
+
+@-webkit-keyframes move2 {
+    0% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move2 {
+    0% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+#page2 p:nth-child(1), #page3 p:nth-child(1), #page4 .Mission_Lodge5, #page5 .Evaluate1 {
+    -webkit-transition: all 1s .4s;
+    transition: all 1s .4s;
+    opacity: 1;
+    -webkit-animation: move2 1s 1 .4s both;
+    animation: move2 1s 1 .4s both;
+}
+
+#page2 p:nth-child(2), #page3 p:nth-child(2), #page4 .Mission_Lodge6, #page5 .Evaluate2 {
+    -webkit-transition: all 1s 1.4s;
+    transition: all 1s 1.4s;
+    opacity: 1;
+    -webkit-animation: move2 1s 1 1.4s both;
+    animation: move2 1s 1 1.4s both;
+}
+
+#page2 p:nth-child(3), #page3 p:nth-child(3), #page4 .Mission_Lodge7, #page5 .Evaluate3 {
+    -webkit-transition: all 1s 2.4s;
+    transition: all 1s 2.4s;
+    opacity: 1;
+    -webkit-animation: move2 1s 1 2.4s both;
+    animation: move2 1s 1 2.4s both;
+}
+
+#page2 p:nth-child(4), #page3 p:nth-child(4), #page4 .Mission_Lodge8, #page5 .Evaluate4 {
+    -webkit-transition: all 1s 3.4s;
+    transition: all 1s 3.4s;
+    opacity: 1;
+    -webkit-animation: move2 1s 1 3.5s both;
+    animation: move2 1s 1 3.5s both;
+}
+
+#page2 p:nth-child(1) a, #page3 p:nth-child(1) a, #page4 .Mission_Lodge5 a, #page5 .Evaluate1 p {
+    -webkit-transition: all 1s 1.4s;
+    transition: all 1s 1.4s;
+    opacity: 1;
+}
+
+#page2 p:nth-child(2) a, #page3 p:nth-child(2) a, #page4 .Mission_Lodge6 a, #page5 .Evaluate2 p {
+    -webkit-transition: all 1s 2.4s;
+    transition: all 1s 2.4s;
+    opacity: 1;
+}
+
+#page2 p:nth-child(3) a, #page3 p:nth-child(3) a, #page4 .Mission_Lodge7 a, #page5 .Evaluate3 p {
+    -webkit-transition: all 1s 3.4s;
+    transition: all 1s 3.4s;
+    opacity: 1;
+}
+
+#page2 p:nth-child(4) a, #page3 p:nth-child(4) a, #page4 .Mission_Lodge8 a, #page5 .Evaluate4 p {
+    -webkit-transition: all 1s 4.4s;
+    transition: all 1s 4.4s;
+    opacity: 1;
+}
+
+#page2 .single1 {
+    -webkit-animation: bounceInRight 1s 1 4s both;
+    animation: bounceInRight 1s 1 4s both;
+}
+
+#page2 .single1 span {
+    -webkit-transition: all 1s 5.5s;
+    transition: all 1s 5.5s;
+    opacity: 1;
+}
+
+#page2 .single2 {
+    -webkit-animation: bounceInLeft 1s 1 5s both;
+    animation: bounceInLeft 1s 1 5s both;
+}
+
+#page2 .single2 span {
+    -webkit-transition: all 1s 6.5s;
+    transition: all 1s 6.5s;
+    opacity: 1;
+}
+
+#page2 .single3 {
+    -webkit-animation: bounceInRight 1s 1 6s both;
+    animation: bounceInRight 1s 1 6s both;
+}
+
+#page2 .single3 span {
+    -webkit-transition: all 1s 7.5s;
+    transition: all 1s 7.5s;
+    opacity: 1;
+}
+
+#page2 .single4 {
+    -webkit-animation: bounceInLeft 1s 1 7s both;
+    animation: bounceInLeft 1s 1 7s both;
+}
+
+#page2 .single4 span {
+    -webkit-transition: all 1s 8.5s;
+    transition: all 1s 8.5s;
+    opacity: 1;
+}
+
+#page2 .single5 {
+    -webkit-animation: bounceInRight 1s 1 8s both;
+    animation: bounceInRight 1s 1 8s both;
+}
+
+#page2 .single5 span {
+    -webkit-transition: all 1s 9.5s;
+    transition: all 1s 9.5s;
+    opacity: 1;
+}
+
+.slide3 {
+    background: url("../images/13.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.slide3 p {
+    position: absolute;
+    width: 1rem;
+    height: .98rem;
+    background: url("../images/15.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    font-size: .5rem;
+    line-height: .98rem;
+    text-align: center;
+    opacity: 0;
+}
+
+.slide3 a {
+    color: white;
+    opacity: 0;
+}
+
+.slide3 p:nth-child(1) {
+    top: .5rem;
+    right: .5rem;
+}
+
+.slide3 p:nth-child(2) {
+    top: 1.5rem;
+    right: .5rem;
+}
+
+.slide3 p:nth-child(3) {
+    top: 2.5rem;
+    right: .5rem;
+}
+
+.slide3 p:nth-child(4) {
+    top: 3.5rem;
+    right: .5rem;
+}
+
+.Page_three, .Page_three4 img {
+    opacity: 0;
+}
+
+.Page_three1 {
+    position: absolute;
+    top: .3rem;
+    left: .8rem;
+    width: 1.54rem;
+    height: .96rem;
+}
+
+.Page_three1 img, .Page_three2 img, .Page_three3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.Page_three2 {
+    position: absolute;
+    top: .7rem;
+    left: 2.2rem;
+    width: 1.24rem;
+    height: .74rem;
+}
+
+.Page_three3 {
+    position: absolute;
+    top: .5rem;
+    left: 3.4rem;
+    width: 1.24rem;
+    height: .74rem;
+}
+
+.Page_three4 {
+    position: absolute;
+    top: 2rem;
+    left: .6rem;
+    letter-spacing: .05rem;
+}
+
+.Page_three4 img {
+    width: .1rem;
+    height: .1rem;
+}
+
+.Page_three4 span {
+    font-size: .3rem;
+    line-height: .6rem;
+}
+
+.Page_three5 {
+    height: 3.6rem;
+    width: .05rem;
+    position: absolute;
+    top: 2.3rem;
+    left: .63rem;
+}
+
+.Page_three5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.Page_three6 {
+    width: 4.4rem;
+    height: 4.4rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.Page_three6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.Page_three7 {
+    width: 3.2rem;
+    height: 3.26rem;
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+}
+
+.Page_three8 {
+    width: 2.4rem;
+    height: 4.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.Page_three8 img{
+    width: 100%;
+    height: 100%;
+}
+
+#page3 .Page_three {
+    opacity: 1;
+}
+
+#page3 .Page_three7 {
+    -webkit-animation: fadeIn 1s 1 1s both;
+    animation: fadeIn 1s 1 1s both;
+}
+
+#page3 .Page_three6 {
+    -webkit-animation: fadeIn 1s 1 .6s both;
+    animation: fadeIn 1s 1 .6s both;
+}
+
+#page3 .Page_three3 {
+    -webkit-animation: fadeInLeft 1.5s 1 5s both;
+    animation: fadeInLeft 1.5s 1 5s both;
+}
+
+#page3 .Page_three2 {
+    -webkit-animation: fadeInLeft 1.5s 1 6s both;
+    animation: fadeInLeft 1.5s 1 6s both;
+}
+
+#page3 .Page_three1 {
+    -webkit-animation: fadeInLeft 1.5s 1 7s both;
+    animation: fadeInLeft 1.5s 1 7s both;
+}
+
+#page3 .Page_three5 {
+    -webkit-animation: bounceInDown 1.5s 1 15s both;
+    animation: bounceInDown 1.5s 1 15s both;
+}
+#page3 .Page_three8 {
+    -webkit-animation: fadeIn 1s 1 1s both;
+    animation: fadeIn 1s 1 1s both;
+}
+
+#page3 .Page_three4 span:nth-of-type(1) {
+    -webkit-animation: bounceInLeft 1.5s 1 8s both;
+    animation: bounceInLeft 1.5s 1 8s both;
+}
+
+#page3 .Page_three4 img:nth-of-type(1) {
+    -webkit-transition: all 1s 8.2s;
+    transition: all 1s 8.2s;
+    opacity: 1;
+}
+
+#page3 .Page_three4 span:nth-of-type(2) {
+    -webkit-animation: fadeInDown 1.5s 1 9s both;
+    animation: fadeInDown 1.5s 1 9s both;
+}
+
+#page3 .Page_three4 img:nth-of-type(2) {
+    -webkit-transition: all 1s 9.2s;
+    transition: all 1s 9.2s;
+    opacity: 1;
+}
+
+#page3 .Page_three4 span:nth-of-type(3) {
+    -webkit-animation: fadeInDown 1.5s 1 10s both;
+    animation: fadeInDown 1.5s 1 10s both;
+}
+
+#page3 .Page_three4 img:nth-of-type(3) {
+    -webkit-transition: all 1s 10.2s;
+    transition: all 1s 10.2s;
+    opacity: 1;
+}
+
+#page3 .Page_three4 span:nth-of-type(4) {
+    -webkit-animation: fadeInDown 1.5s 1 11s both;
+    animation: fadeInDown 1.5s 1 11s both;
+}
+
+#page3 .Page_three4 img:nth-of-type(4) {
+    -webkit-transition: all 1s 11.2s;
+    transition: all 1s 11.2s;
+    opacity: 1;
+}
+
+#page3 .Page_three4 span:nth-of-type(5) {
+    -webkit-animation: fadeInDown 1.5s 1 12s both;
+    animation: fadeInDown 1.5s 1 12s both;
+}
+
+#page3 .Page_three4 img:nth-of-type(5) {
+    -webkit-transition: all 1s 12.2s;
+    transition: all 1s 12.2s;
+    opacity: 1;
+}
+
+#page3 .Page_three4 span:nth-of-type(6) {
+    -webkit-animation: fadeInDown 1.5s 1 13s both;
+    animation: fadeInDown 1.5s 1 13s both;
+}
+
+#page3 .Page_three4 img:nth-of-type(6) {
+    -webkit-transition: all 1s 13.2s;
+    transition: all 1s 13.2s;
+    opacity: 1;
+}
+
+#page3 .Page_three4 span:nth-of-type(7) {
+    -webkit-animation: fadeInDown 1.5s 1 14s both;
+    animation: fadeInDown 1.5s 1 14s both;
+}
+
+#page3 .Page_three4 img:nth-of-type(7) {
+    -webkit-transition: all 1s 14.2s;
+    transition: all 1s 14.2s;
+    opacity: 1;
+}
+
+.slide4 {
+    background: url("../images/13.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.Mission_Lodge {
+    width: 1rem;
+    height: 1.5rem;
+    position: absolute;
+    opacity: 0;
+}
+
+.Mission_Lodge img {
+    width: 100%;
+    height: 100%;
+}
+
+.Mission_Lodge1 {
+    top: 2rem;
+    left: 5rem;
+}
+
+.Mission_Lodge3 {
+    top: 3.5rem;
+    left: .5rem;
+}
+
+.Mission_Lodge2 {
+    top: 6rem;
+    left: 5rem;
+}
+
+.Mission_Lodge4 {
+    top: 7rem;
+    left: 1rem;
+}
+
+.slide4 span {
+    font-size: .4rem;
+    line-height: 2rem;
+    color: #3c3c3c;
+    text-align: center;
+    width: 4rem;
+    height: 2rem;
+    position: absolute;
+    opacity: 0;
+    z-index: 11;
+}
+
+.slide4 span:nth-of-type(1) {
+    top: 3rem;
+    left: 1.6rem;
+    display: block;
+    background: url("../images/9d49c516fdfaaf51a3b720e98e5494eef11f7ae6.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.slide4 span:nth-of-type(2) {
+    top: 1rem;
+    left: 1rem;
+    display: block;
+    background: url("../images/d453f98b87d6277f4b60926e2a381f30e824fccd.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.slide4 span:nth-of-type(3) {
+    top: 5.3rem;
+    left: 1rem;
+    display: block;
+    background: url("../images/d17497fc1e178a827b7adef6f403738da877e8f1.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    color: black;
+    line-height: 1.6rem;
+}
+
+.slide4 span:nth-of-type(4) {
+    top: 7rem;
+    left: 2rem;
+    display: block;
+    background: url("../images/82412bf082025aaf148adf9df9edab64024f1afa.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    color: black;
+}
+
+.Mission {
+    position: absolute;
+    width: 1rem;
+    height: .98rem;
+    background: url("../images/15.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    font-size: .5rem;
+    line-height: .98rem;
+    text-align: center;
+    opacity: 0;
+    z-index: 11;
+}
+
+.Mission a {
+    color: white;
+    opacity: 0;
+}
+
+.Mission_Lodge5 {
+    top: .5rem;
+    left: .3rem;;
+}
+
+.Mission_Lodge6 {
+    top: 4rem;
+    left: 5.3rem;;
+}
+
+.Mission_Lodge7 {
+    top: 6.1rem;
+    left: .3rem;;
+}
+
+.Mission_Lodge8 {
+    top: 8.5rem;
+    left: 5.3rem;;
+}
+
+.Mission_Lodge9 {
+    width: 2.4rem;
+    height: 5.2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.Mission_Lodge9 img {
+    width: 100%;
+    height: 100%;
+}
+
+#page4 .Mission, #page4 span, #page4 .Mission_Lodge, #page4 .Mission_Lodge9 {
+    opacity: 1;
+}
+
+#page4 .Mission_Lodge1 {
+    -webkit-animation: fadeInDown 1.5s 1 5s both;
+    animation: fadeInDown 1.5s 1 5s both;
+}
+
+#page4 span:nth-of-type(2) {
+    -webkit-animation: rotateInUpRight 1.5s 1 6s both;
+    animation: rotateInUpRight 1.5s 1 6s both;
+}
+
+#page4 .Mission_Lodge3 {
+    -webkit-animation: fadeInLeft 1.5s 1 7s both;
+    animation: fadeInLeft 1.5s 1 7s both;
+}
+
+#page4 span:nth-of-type(1) {
+    -webkit-animation: rotateInUpLeft 1.5s 1 8s both;
+    animation: rotateInUpLeft 1.5s 1 8s both;
+}
+
+#page4 .Mission_Lodge2 {
+    -webkit-animation: fadeInRight 1.5s 1 9s both;
+    animation: fadeInRight 1.5s 1 9s both;
+}
+
+#page4 span:nth-of-type(3) {
+    -webkit-animation: rotateInUpRight 1.5s 1 10s both;
+    animation: rotateInUpRight 1.5s 1 10s both;
+}
+
+#page4 .Mission_Lodge4 {
+    -webkit-animation: fadeInRight 1.5s 1 11s both;
+    animation: fadeInRight 1.5s 1 11s both;
+}
+
+#page4 span:nth-of-type(4) {
+    -webkit-animation: rotateInUpLeft 1.5s 1 12s both;
+    animation: rotateInUpLeft 1.5s 1 12s both;
+}
+
+#page4 .Mission_Lodge9 {
+    -webkit-animation: fadeIn 1s 1 both;
+    animation: fadeIn 1s 1 both;
+}
+
+.slide5 {
+    background: url("../images/13.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.get_on img {
+    width: .5rem;
+    height: .4rem;
+}
+
+.get_on {
+    margin-left: -.25rem;
+    position: absolute;
+    bottom: .3rem;
+    left: 50%;
+}
+
+#page5 .get_on, #page1 .get_on, #page2 .get_on, #page3 .get_on, #page4 .get_on {
+    -webkit-animation: fadeInUp 1.5s infinite linear both;
+    animation: fadeInUp 1.5s infinite linear both;
+
+}
+
+.slide5 .Single {
+    position: absolute;
+    width: 1rem;
+    height: .98rem;
+    background: url("../images/15.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    font-size: .5rem;
+    line-height: .98rem;
+    text-align: center;
+    opacity: 0;
+}
+
+.slide5 .Single p {
+    color: white;
+    opacity: 0;
+
+}
+
+.slide5 .Evaluate1 {
+    top: .5rem;
+    left: .5rem;
+}
+
+.slide5 .Evaluate2 {
+    top: 1.5rem;
+    left: .5rem;
+}
+
+.slide5 .Evaluate3 {
+    top: 2.5rem;
+    left: .5rem;
+}
+
+.slide5 .Evaluate4 {
+    top: 3.5rem;
+    left: .5rem;
+}
+
+.print1 {
+    width: .02rem;
+    height: 4rem;
+    background: url("../images/Page_three5.png") no-repeat;
+    position: absolute;
+    left: 1.8rem;
+    top: .5rem;
+}
+
+.print2 {
+    width: 2rem;
+    height: 4rem;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.print2 span {
+    display: block;
+    width: .26rem;
+    height: 100%;
+    font-size: .24rem;
+    line-height: .26rem;
+    position: absolute;
+}
+
+.Five-pages {
+    position: absolute;
+    opacity: 0;
+}
+
+.Five-pages img {
+    width: 100%;
+    height: 100%;
+}
+
+.print2 span:nth-child(1) {
+    left: 2rem;
+    top: .5rem;
+}
+
+.print2 span:nth-child(2) {
+    left: 2.3rem;
+    top: .5rem;
+}
+
+.print2 span:nth-child(3) {
+    left: 2.6rem;
+    top: .5rem;
+}
+
+.print2 span:nth-child(4) {
+    left: 2.9rem;
+    top: .5rem;
+}
+
+.print2 span:nth-child(5) {
+    left: 3.2rem;
+    top: .5rem;
+}
+
+.print3 {
+    width: 1.72rem;
+    height: 1.6rem;
+    top: 0;
+    right: 0;
+}
+
+.print4 {
+    width: 2.28rem;
+    height: .82rem;
+    top: 4.8rem;
+    left: 0;
+}
+
+.print5 {
+    width: 4.4rem;
+    height: 4.4rem;
+    bottom: 0;
+    left: 0;
+}
+
+.print6 {
+    width: 2.76rem;
+    height: 3.62rem;
+    top: 5rem;
+    left: 0;
+}
+
+.print7 {
+    width: 2rem;
+    height: 2rem;
+    top: 4rem;
+    left: 3.8rem;
+}
+
+.print8 {
+    width: 4rem;
+    height: 4rem;
+    top: .8rem;
+    left: 3rem;
+    color: red;
+
+}
+
+.print8 p, .print8 span {
+    position: absolute;
+    display: block;
+    opacity: 0;
+}
+
+.print8 :nth-child(1) {
+    font-size: .4rem;
+    top: 0;
+    left: .8rem;
+
+}
+
+.print8 :nth-child(2) {
+    font-size: .4rem;
+    top: .5rem;
+    left: 1.2rem;
+}
+
+.print8 :nth-child(3) {
+    font-size: .2rem;
+    width: .26rem;
+    top: 1.2rem;
+    left: 1.5rem;
+}
+
+.print8 :nth-child(4) {
+    font-size: .2rem;
+    width: .26rem;
+    top: 1.5rem;
+    left: 1.9rem;
+}
+
+.print9 {
+    width: 3rem;
+    height: 3rem;
+    bottom: 1rem;
+    left: 3rem;
+
+}
+
+.print9 div {
+    position: absolute;
+    width: 100%;
+    height: 1rem;
+    background: url("../images/The_fifth_page_images1.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+
+}
+.print9 div:nth-child(1){
+    left:0;
+    top:0;
+    width: 100%;
+    height: 33%;
+}
+.print9 div:nth-child(2){
+    left:0;
+    top:1rem;
+    width: 100%;
+    height: 33%;
+}
+.print9 div:nth-child(3){
+    left:0;
+    top:2rem;
+    width: 100%;
+    height: 34%;
+}
+.print9 div span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    line-height: 1rem;
+    color: wheat;
+    text-align: center;
+}
+#page5 .print2 {
+    opacity: 1;
+}
+
+#page5 .Five-pages {
+    opacity: 1;
+}
+
+#page5 .print5 {
+    -webkit-animation: fadeIn 1s 1 .5s both;
+    animation: fadeIn 1s 1 .5s both;
+}
+
+#page5 .print6 {
+    -webkit-animation: fadeIn 1s 1 1s both;
+    animation: fadeIn 1s 1 1s both;
+}
+
+#page5 .print4 {
+    -webkit-animation: fadeInLeft 1.5s 1 1.5s both;
+    animation: fadeInLeft 1.5s 1 1.5s both;
+}
+
+#page5 .print1 {
+    -webkit-animation: fadeInDown 1.5s 1 5s both;
+    animation: fadeInDown 1.5s 1 5s both;
+}
+
+#page5 .print2 span:nth-child(1) {
+    -webkit-animation: fadeInDown 1.5s 1 6s both;
+    animation: fadeInDown 1.5s 1 6s both;
+}
+
+#page5 .print2 span:nth-child(2) {
+    -webkit-animation: fadeInDown 1.5s 1 7s both;
+    animation: fadeInDown 1.5s 1 7s both;
+}
+
+#page5 .print2 span:nth-child(3) {
+    -webkit-animation: fadeInDown 1.5s 1 8s both;
+    animation: fadeInDown 1.5s 1 8s both;
+}
+
+#page5 .print2 span:nth-child(4) {
+    -webkit-animation: fadeInDown 1.5s 1 9s both;
+    animation: fadeInDown 1.5s 1 9s both;
+}
+
+#page5 .print2 span:nth-child(5) {
+    -webkit-animation: fadeInDown 1.5s 1 10s both;
+    animation: fadeInDown 1.5s 1 10s both;
+}
+
+#page5 .print3 {
+    -webkit-animation: fadeInRight 1.5s 1 2s both;
+    animation: fadeInRight 1.5s 1 2s both;
+}
+
+#page5 .print8 :nth-child(1) {
+    -webkit-transition: all 1s 12s;
+    transition: all 1s 12s;
+    opacity: 1;
+    -webkit-animation: zoomax 1s 1 12s both;
+    animation: zoomax 1s 1 12s both;
+}
+
+#page5 .print8 :nth-child(2) {
+    -webkit-transition: all 1s 13s;
+    transition: all 1s 13s;
+    opacity: 1;
+    -webkit-animation: zoomax 1s 1 13s both;
+    animation: zoomax 1s 1 13s both;
+}
+
+#page5 .print8 :nth-child(3) {
+    opacity: 1;
+    -webkit-animation: fadeInDown 1s 1 14s both;
+    animation: fadeInDown 1s 1 14s both;
+}
+
+#page5 .print8 :nth-child(4) {
+
+    opacity: 1;
+    -webkit-animation: fadeInDown 1s 1 16s both;
+    animation: fadeInDown 1s 1 16s both;
+}
+
+@-webkit-keyframes zoomax {
+    0% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomax {
+    0% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+#page5 .print7 {
+    -webkit-animation: zoomIn 1s 1 17s both;
+    animation: zoomIn 1s 1 17s both;
+}
+
+#page5 .print9 div:nth-child(1){
+    -webkit-animation: fadeInRight 1.5s 1 18s both;
+    animation: fadeInRight 1.5s 1 18s both;
+}
+#page5 .print9 div:nth-child(2){
+    -webkit-animation: fadeInRight 1.5s 1 19s both;
+    animation: fadeInRight 1.5s 1 19s both;
+}
+#page5 .print9 div:nth-child(3){
+    -webkit-animation: fadeInRight 1.5s 1 20s both;
+    animation: fadeInRight 1.5s 1 20s both;
+}
+#page5 .print9 div:nth-child(1) span{
+    -webkit-animation: fadeInDown 1.5s 1 19s both;
+    animation: fadeInDown 1.5s 1 19s both;
+}
+#page5 .print9 div:nth-child(2) span{
+    -webkit-animation: fadeInDown 1.5s 1 20s both;
+    animation: fadeInDown 1.5s 1 20s both;
+}
+#page5 .print9 div:nth-child(3) span{
+    -webkit-animation: fadeInDown 1.5s 1 21s both;
+    animation: fadeInDown 1.5s 1 21s both;
+}
+
+.slide6 {
+    background: url("../images/13.jpg") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+.last{
+    position: absolute;
+    color: white;
+    opacity: 0;
+}
+.last1{
+    width: 5rem;
+    height: 1.54rem;
+    background: url("../images/Page-six-pictures1.png")no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100% ;
+    top: .5rem;
+    left: 1rem;
+}
+.last1 span{
+    display: block;
+    width: 100%;
+    height:100%;
+    line-height:1.54rem;
+    text-align: center;
+    font-size: .5rem;
+}
+.last2 span ,.last3 span{
+    display: block;
+    width: 100%;
+    height:100%;
+    line-height:.6rem;
+    text-align: center;
+    font-size: .3rem;
+}
+.last2 ,.last3{
+    width: 3.2rem;
+    height:.6rem;
+    background: url("../images/Page-six-pictures2.png")no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100% ;
+    top: 2rem;
+    left: 1.5rem;
+}
+.last3{
+    top:  2.8rem;
+    left: 1.5rem;
+}
+.last4{
+    width: 4.5rem;
+    height:4rem;
+    background: url("../images/Page-six-pictures4.png")no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100% ;
+    top: 3rem;
+    left: 1rem;
+    z-index: 111;
+}
+.last4 span{
+    display: inline-block;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 1.4rem;
+    left: 1.5rem;
+}
+.last4 span img{
+    width: 100%;
+    height: 100%;
+}
+.last5{
+    width: 1.24rem;
+    height:1.44rem;
+    background: url("../images/Page-six-pictures5.png")no-repeat;
+    top: 4rem;
+    left: .5rem;
+}
+.last6{
+    width: 1.24rem;
+    height:1.44rem;
+    background: url("../images/Page-six-pictures6.png")no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100% ;
+    top: 5.5rem;
+    left: .3rem;
+}
+.last7{
+    width: 4.4rem;
+    height:4.4rem;
+    background: url("../images/Page-six-pictures8.png")no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100% ;
+    bottom: 0;
+    left: 0;
+}
+.last8{
+    width: 3.2rem;
+    height:4.22rem;
+    background: url("../images/Page-six-pictures7.png")no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100% ;
+    bottom: 1rem;
+    left: 0;
+}
+.last9{
+    width: 3.2rem;
+    height:4.22rem;
+    background: url("../images/Page-six-pictures9.png")no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100% ;
+    bottom: 0;
+    left: 2rem;
+}
+.last10{
+    width: 1.24rem;
+    height:1.44rem;
+    background: url("../images/Page_six_pictures10.png")no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100% ;
+    top: 6.8rem;
+    left: 2.5rem;
+}
+.last11{
+     width: 1.24rem;
+     height:1.44rem;
+     background: url("../images/Page_six_pictures11.png")no-repeat;
+     -webkit-background-size:100% 100%;
+     background-size:100% 100% ;
+     right: .3rem;
+     top: 5.5rem;
+ }
+.last12{
+    width: 1.24rem;
+    height:1.44rem;
+    background: url("../images/Page_six_pictures12.png")no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100% ;
+    right: .5rem;
+    top: 4rem;
+}
+.last13{
+    width: .6rem;
+    height:1.12rem;
+    background: url("../images/9.png")no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100% ;
+    right: .5rem;
+    bottom: 2rem;
+}
+
+#page6 .last {
+    opacity: 1;
+}
+#page6 .last7{
+    -webkit-animation: fadeIn 1s 1 .8s both;
+    animation: fadeIn 1s 1 .8s both;
+}
+#page6 .last8{
+    -webkit-animation: fadeIn 1s 1 1.8s both;
+    animation: fadeIn 1s 1 1.8s both;
+}
+#page6 .last9{
+    -webkit-animation: fadeIn 1s 1 2.5s both;
+    animation: fadeIn 1s 1 2.5s both;
+}
+#page6 .last1{
+    -webkit-animation: fadeInDown 1s 1 5s both;
+    animation: fadeInDown 1s 1 5s both;
+}
+#page6 .last2{
+    -webkit-animation: fadeInLeft 1s 1 6s both;
+    animation: fadeInLeft 1s 1 6s both;
+}
+#page6 .last3{
+    -webkit-animation: fadeInRight 1s 1 6s both;
+    animation: fadeInRight 1s 1 6s both;
+}
+#page6 .last4{
+    -webkit-animation: zoomIns .5s 1 3s both;
+    animation: zoomIns .5s 1 3s both;
+}
+#page6 .last4 span{
+    -webkit-animation: fadeInDown 1s 1 3.5s both;
+    animation: fadeInDown 1s 1 3.5s both;
+}
+#page6 .last5 ,#page6 .last6,#page6 .last10,#page6 .last11,#page6 .last12{
+    -webkit-animation: zoomIns .5s 1 4s both;
+    animation: zoomIns .5s 1 4s both;
+}
+@-webkit-keyframes zoomIns {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    50%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    75%{
+        -webkit-transform: scale(.6);
+        transform: scale(0.6);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes zoomIns {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    50%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    75%{
+        -webkit-transform: scale(.8);
+        transform: scale(0.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+#page6 .last13{
+    -webkit-animation: zoomIns 1s 1 7s both;
+    animation: zoomIns 1s 1 7s both;
+}
